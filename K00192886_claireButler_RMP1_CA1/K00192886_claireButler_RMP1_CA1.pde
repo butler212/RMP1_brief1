@@ -28,12 +28,27 @@ void setup() {
       allCircles[i].paint();
     
     //for loop to move the circles
-    for(int j = 0; j < allCircles.length; j++) {
+    for(int j =0; j < allCircles.length; j++) {
      
-      if(keyCode == UP & keyPressed){
-        allCircles[j].yPos += 1;
+      if(keyCode == UP && keyPressed) {
+        allCircles[j].yPosCircle +=1;
         print("Up keyPressed");
-    }    
+    }   
+    
+    if(keyCode == LEFT && keyPressed) {
+      allCircles[j].xPosCircle -=1;
+      
+    }
+    
+    if(keyCode == DOWN && keyPressed) {
+      allCircles[j].yPosCircle +=1;
+    }
+    if(keyCode == RIGHT && keyPressed) {
+      allCircles[j].xPosCircle +=1;
+    }
+  }
+    } 
+    
     
     
     
