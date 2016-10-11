@@ -8,7 +8,7 @@ Circle[] allCircles = new Circle [20];
 void setup() {
   
    size(700, 700);
-   background(235);
+   background(200);
    
    myFace = new Face();
    
@@ -21,7 +21,7 @@ void setup() {
   
   void draw() {
     
-    background(235);
+    background(200);
     
     //for loop to draw all the circles in the array
     for(int i = 0; i < allCircles.length; i++) {
@@ -31,8 +31,8 @@ void setup() {
     for(int j =0; j < allCircles.length; j++) {
      
       if(keyCode == UP && keyPressed) {
-        allCircles[j].yPosCircle +=1;
-        print("Up keyPressed");
+        allCircles[j].yPosCircle -=1;
+        print("UpkeyPressed");
     }   
     
     if(keyCode == LEFT && keyPressed) {
@@ -48,10 +48,6 @@ void setup() {
     }
   }
     } 
-    
-    
-    
-    
     
     //paint function on the screen
     myFace.paint(mouseX,mouseY);
