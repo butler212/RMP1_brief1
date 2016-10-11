@@ -27,7 +27,8 @@ void setup(){
     for(int i = 0; i < allCircles; i++) {
       allCircles[i].draw();
     
-    
+    //for loop to move the circles
+    for(int j = 0; j < allCirlces; j++) 
     
     
     
