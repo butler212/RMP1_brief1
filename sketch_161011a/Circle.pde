@@ -27,7 +27,7 @@ class Circle {
  void draw(){
    
    fill(circleRed, circleGreen, circleBlue);
-   ellipse(xPos, yPos, radiusCircle);
+   ellipse(xPosCircle, yPosCircle, radiusCircle);
    
  }   
  
