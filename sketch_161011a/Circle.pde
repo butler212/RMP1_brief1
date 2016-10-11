@@ -12,11 +12,13 @@ class Circle {
  float circleBlue;
  
  Circle() {
-   //assigning values top the variables
+   //assigning values to the variables
    
-     xPosCircle = random;
-     yPosCircle = random;
+     xPosCircle = random(width);
+     yPosCircle = random(height);
      radiusCircle = random(10,50);
+     
+     //assigning random colours
      circleRed = random(255);
      circleGreen = random(255);
      circleBlue = random(255);
