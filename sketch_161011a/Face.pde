@@ -32,7 +32,6 @@ class Face{
      ellipse(30, -10, 10, 10); 
      
   
-     
      //inside pupils
       ellipse(-27, -5, 5, 5);
       ellipse(27, -5, 5, 5); 
@@ -40,7 +39,5 @@ class Face{
      
      popMatrix();
     
-    
-    
-  }
+    }
 }

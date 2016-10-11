@@ -25,15 +25,20 @@ void setup(){
     
     //for loop to draw all the circles in the array
     for(int i = 0; i < allCircles; i++) {
-      allCircles[i].draw();
+      allCircles[i].d();
     
     //for loop to move the circles
-    for(int j = 0; j < allCirlces; j++) 
+    for(int j = 0; j < allCircles; j++) {
+     
+      if(keyCode == UP & keyPressed){
+        allCircles[j].yPos += 1;
+        print("Up keyPressed");
+    }    
     
     
     
     
-    //draw function on the screen
+    //paint function on the screen
     myFace.paint(mouseX,mouseY);
     
   }

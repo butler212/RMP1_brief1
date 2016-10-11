@@ -1,7 +1,6 @@
 class Circle {
-  //creating variables to store properties for the circle class
   
-  
+ //creating variables to store properties for the circle class
  float xPosCircle;
  float yPosCircle;
  float radiusCircle;
@@ -25,11 +24,11 @@ class Circle {
    } 
  
  //calling draw function
- void draw(){
+ void paint(){
    
    fill(circleRed, circleGreen, circleBlue);
    ellipse(xPosCircle, yPosCircle, radiusCircle, radiusCircle);
    
- }   
+   }   
  
 }
