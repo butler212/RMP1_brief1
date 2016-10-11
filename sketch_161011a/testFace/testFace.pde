@@ -13,7 +13,7 @@ void setup(){
 void draw(){
   background (255);
   
-  //mySquare.paint();
+  mySquare.paint();
   
   myFace.paint(50, 50);
   
