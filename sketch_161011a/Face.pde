@@ -10,11 +10,12 @@ class Face{
    //panda eyes
    noStroke();
    fill(0);
-   ellipse(-80, -40, 40, 30);
-   ellipse(80, 40, 40, 30); 
+   ellipse(-40, -40, 40, 30);
+   ellipse(40, 40, 40, 30); 
    
    //pupils
-  
+   
+   
    //nose
    
    popMatrix();
