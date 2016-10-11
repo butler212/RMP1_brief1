@@ -7,7 +7,15 @@ class Face{
    pushMatrix();
    translate(xPos,yPos);
    
+   //panda eyes
+   noStroke();
+   fill(0);
+   ellipse(-80, -40, 40, 30);
+   ellipse(80, 40, 40, 30); 
    
+   //pupils
+  
+   //nose
    
    popMatrix();
   
