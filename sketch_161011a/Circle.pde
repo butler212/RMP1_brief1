@@ -24,10 +24,11 @@ class Circle {
      circleBlue = random(255);
    } 
  
+ //calling draw function
  void draw(){
    
    fill(circleRed, circleGreen, circleBlue);
-   ellipse(xPosCircle, yPosCircle, radiusCircle);
+   ellipse(xPosCircle, yPosCircle, radiusCircle, radiusCircle);
    
  }   
  
