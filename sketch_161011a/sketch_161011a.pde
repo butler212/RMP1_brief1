@@ -13,7 +13,7 @@ void setup(){
    myFace = new Face();
    
    //adding circles into the array, for loop
-   for(int = 0; i < 20; i++) {
+   for(int i = 0; i < 20; i++) {
      allCircles[i] = new Circle();
    }
    
@@ -23,6 +23,16 @@ void setup(){
     
     background(235);
     
+    //for loop to draw all the circles in the array
+    for(int i = 0; i < allCircles; i++) {
+      allCircles[i].draw();
+    
+    
+    
+    
+    
+    
+    //draw function on the screen
     myFace.paint(mouseX,mouseY);
     
   }
